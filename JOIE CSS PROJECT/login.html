@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Fredoka', sans-serif;
+      margin: 0;
+      background: #6944AB; /* dark purple bg */
+      color: #fff;
+    }
+
+    .login-section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .login-container {
+      max-width: 400px;
+      margin: 0 auto;
+      background: rgba(182,128,204,0.35);
+      backdrop-filter: blur(12px);
+      padding: 30px 25px;
+      border-radius: 20px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+    }
+
+    .login-container input.login-input {
+      width: 80%;
+      padding: 10px 15px;
+      margin: 10px 0;
+      border-radius: 12px;
+      border: none;
+    }
+
+    .login-submit {
+      width: 80%;
+      padding: 12px 0;
+      margin-top: 15px;
+      border: none;
+      border-radius: 15px;
+      background: #fff;
+      color: #6944AB;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .login-submit:hover {
+      background: linear-gradient(90deg, #A690D6, #D7FFA6);
+      color: #6a44ab;
+    }
+
+    /* Contact Me Instead Button */
+    .contact-button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 30px;
+      background: linear-gradient(90deg, #9FAB67, #B6CC6E);
+      border-radius: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+      transition: all 0.3s ease;
+    }
+
+    .contact-button:hover {
+      background: linear-gradient(90deg, #B6CC6E, #9FAB67);
+      box-shadow: 0 0 15px rgba(255,255,255,0.5);
+      transform: scale(1.05);
+      color: #fff;
+    }
+
+  </style>
+</head>
+<body>
+
+<section class="login-section" id="login-section">
+  <div class="login-container">
+    <h2>Login to Purchase</h2>
+    <input type="text" class="login-input" placeholder="Email">
+    <input type="password" class="login-input" placeholder="Password">
+    <button class="login-submit">Login</button>
+
+    <!-- Contact Me Instead -->
+    <br>
+    <a href="Doodledanisaur.html#contact" class="contact-button">Contact Me Instead</a>
+  </div>
+</section>
+
+</body>
+</html>
